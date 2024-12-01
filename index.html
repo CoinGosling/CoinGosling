@@ -4,50 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="CoinGosling: Where Crypto Meets the Drive of Memes!">
-    <title>CoinGosling</title>
+    <title>$RYAN | @CoinGosling on X</title>
+    <link rel="icon" type="image/png" href="4pic.webp">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&family=Orbitron:wght@500&display=swap');
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f0f0f0;
-            color: #333;
+            background: url('background.webp') no-repeat center center fixed;
+            background-size: cover;
+            color: #f5f5f5;
         }
+
         header {
-            background-color: #2c3e50;
+            background-color: #000000; 
             color: white;
-            padding: 1em 0;
+            padding: 1.5em 20px;
             text-align: center;
+            max-width: 90%;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
+
         header h1 {
             margin: 0;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 4em;
+            background: linear-gradient(90deg, #ffcc00, #ff6f61);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
+
         header p {
-            margin: 5px 0 0;
+            margin: 10px 0 0;
+            font-size: 1.2em;
+            color: #f5f5f5;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
+
         nav {
-            background-color: #34495e;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
+            background-color: #000000; 
             color: white;
+            padding: 10px 20px;
+            text-align: center;
+            max-width: 90%;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: #ffcc00;
             text-decoration: none;
             margin: 0 15px;
             font-weight: bold;
+            font-family: 'Roboto', sans-serif;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
+
         section {
             padding: 20px;
             max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            background: #2c3e50; 
+            color: #f5f5f5; 
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            border-radius: 15px;
         }
+
+        section h2 {
+            color: #ffffff;
+            text-align: center;
+            font-family: 'Lobster', cursive;
+            margin-bottom: 20px;
+        }
+
         footer {
-            background-color: #2c3e50;
+            background-color: #000000;
             color: white;
             text-align: center;
             padding: 1em 0;
@@ -55,92 +94,178 @@
             bottom: 0;
             width: 100%;
         }
-        .section-title {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+
         .roadmap ul {
             list-style: none;
             padding: 0;
+            color: #ffffff; 
         }
+
         .roadmap li {
             margin: 10px 0;
-            background: #ecf0f1;
+            background: #ff6f61; 
             padding: 10px;
-            border-left: 5px solid #3498db;
+            border-left: 5px solid #ffcc00;
+            border-radius: 5px;
+            color: #fff; 
         }
+
         .social-links a {
-            color: #3498db;
+            color: #ff6f61;
             text-decoration: none;
             margin: 0 10px;
+            font-weight: bold;
         }
+
         .social-links a:hover {
+            color: #ffcc00;
             text-decoration: underline;
         }
+
         .image-section img {
             width: 100%;
             max-width: 800px;
             margin: 10px auto;
             display: block;
             border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .faq {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .faq h3 {
+            font-family: 'Verdana', sans-serif;
+        }
+        .tokenomics ul {
+            list-style-type: square;
+            padding-left: 20px;
+            color: #f5f5f5; 
+        }
+
+        .buy-follow-section {
+            background-color: #2c3e50;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            margin: 20px auto;
+            max-width: 900px;
+        }
+
+        .buy-follow-section h2 {
+            color: #ffffff;
+            text-align: center;
+            font-family: 'Lobster', cursive;
+        }
+
+        .buy-follow-section p {
+            color: #f5f5f5;
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        .buy-follow-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        .buy-follow-links a {
+            color: #ffcc00;
+            font-weight: bold;
+            font-size: 1.2em;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #ffcc00;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .buy-follow-links a:hover {
+            background-color: #ffcc00;
+            color: #2c3e50;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>CoinGosling</h1>
+        <h1>$RYAN</h1>
         <p>Where Crypto Meets the Drive of Memes!</p>
     </header>
 
     <nav>
         <a href="#about">About</a>
+        <a href="#buy-follow">Buy/Follow</a>
         <a href="#tokenomics">Tokenomics</a>
         <a href="#roadmap">Roadmap</a>
         <a href="#community">Community</a>
+        <a href="#faq">FAQ</a>
     </nav>
 
     <section id="about">
-        <h2 class="section-title">About CoinGosling</h2>
-        <p>CoinGosling is the ultimate fusion of crypto and memes, inspired by the charm of Ryan Gosling. Built on the Solana blockchain, CoinGosling aims to bring laughter, community, and innovation to the crypto world. Whether you're here for the memes or the moonshots, you're in the right place!</p>
+        <h2>About CoinGosling</h2>
+        <p>CoinGosling is the perfect mix of crypto and memes, all wrapped up in the charm of Ryan Gosling. Built on the Solana blockchain, it's all about bringing some fun, community spirit, and innovation to the crypto space. Whether you're here for the memes or aiming for the moon, you're in the right place!</p>
         <div class="image-section">
-            <img src="https://via.placeholder.com/800x400?text=Ryan+Gosling+Crypto" alt="Ryan Gosling Crypto Meme">
+            <img src="6pic.jpg" alt="Ryan Gosling Crypto Meme">
         </div>
     </section>
 
-    <section id="tokenomics">
-        <h2 class="section-title">Tokenomics</h2>
-        <p>Here's how CoinGosling is distributed:</p>
+    <section id="buy-follow" class="buy-follow-section">
+        <h2>How to Buy $RYAN and Follow the Coin</h2>
+        <p>Ready to join the CoinGosling movement? This section will be updated once the coin goes public!</p>
+        <div class="buy-follow-links">
+            <a href="https://pump.fun" target="_blank">Buy $RYAN</a>
+            <a href="https://www.dexscreener.com" target="_blank">Follow $RYAN</a>
+        </div>
+    </section>
+
+
+    <section id="tokenomics" class="tokenomics">
+        <h2>Tokenomics</h2>
+        <p>Here's the breakdown of the $RYAN token supply:</p>
         <ul>
             <li><strong>50%:</strong> Public (Airdrop & Sale)</li>
-            <li><strong>30%:</strong> Liquidity Pool</li>
-            <li><strong>10%:</strong> Marketing</li>
-            <li><strong>10%:</strong> Team (Vested)</li>
+            <li><strong>40%:</strong> Liquidity Pool</li>
+            <li><strong>10%:</strong> Team</li>
         </ul>
     </section>
 
-    <section id="roadmap">
-        <h2 class="section-title">Roadmap</h2>
-        <ul class="roadmap">
+    <section id="roadmap" class="roadmap">
+        <h2>Roadmap</h2>
+        <ul>
             <li><strong>Phase 1:</strong> Launch CoinGosling on Pump.Fun</li>
-            <li><strong>Phase 2:</strong> Community Airdrop & Pump.Fun Listing</li>
+            <li><strong>Phase 2:</strong> Community Airdrop</li>
             <li><strong>Phase 3:</strong> Build Liquidity Pool & Enable Trading</li>
             <li><strong>Phase 4:</strong> Meme Competitions and Community Rewards</li>
         </ul>
-        <div class="image-section">
-            <img src="https://via.placeholder.com/800x400?text=Ryan+Gosling+Coin" alt="Ryan Gosling Coin">
+    </section>
+
+    <section id="community" class="community">
+        <h2>Community</h2>
+        <p>Join the CoinGosling community and get the latest updates on memes, tokens, and all things $RYAN:</p>
+        <div class="social-links">
+            <a href="https://twitter.com/CoinGosling" target="_blank">Twitter</a> |
+            <a href="https://t.me/CoinGosling" target="_blank">Telegram</a> 
         </div>
     </section>
 
-    <section id="community">
-        <h2 class="section-title">Join the Community</h2>
-        <p>Get involved with CoinGosling and stay updated:</p>
-        <p class="social-links">
-            <a href="https://x.com/CoinGosling" target="_blank">Follow us on Twitter</a>
-            | <a href="https://t.me/CoinGosling" target="_blank">Join our Telegram</a>
-        </p>
-        <div class="image-section">
-            <img src="https://via.placeholder.com/800x400?text=Ryan+Gosling+Memes" alt="Ryan Gosling Meme">
-        </div>
+    <section id="faq" class="faq">
+        <h2>FAQ</h2>
+        <h3>What is CoinGosling?</h3>
+        <p> - CoinGosling is a memecoin inspired by the cool vibes of Ryan Gosling. It's built on the Solana blockchain, and it's here to bring fun, memes, and crypto innovation together.</p>
+        <h3>How can I buy $RYAN?</h3>
+        <p> - You can buy $RYAN through pump.fun or on other decentralized exchanges once we set up the liquidity pool.</p>
+        <h3>What is the total supply of $RYAN?</h3>
+        <p> - The total supply is 1 billion $RYAN tokens.</p>
+        <h3>How do I join the community?</h3>
+        <p> - Follow us on X, or join our Telegram group! You'll find the links in the "Community" section above.</p>
+        <h3>Is there a roadmap for CoinGosling?</h3>
+        <p> - Yes, check out the "Roadmap" section to see what's coming up!</p>
     </section>
 
     <footer>
